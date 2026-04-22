@@ -1,5 +1,7 @@
 from django.db import models
 
+# Separa por el patron de responsabilidad unica la parte de los servicios tendria que hacer una carpeta de 
+# productos al igual que el de ventas
 # Tabla Independiente de Categorías 
 class Categoria(models.Model):
     nombre = models.CharField(max_length=100) 
